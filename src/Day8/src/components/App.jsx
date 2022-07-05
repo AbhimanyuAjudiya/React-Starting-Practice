@@ -6,7 +6,6 @@ function createEmoji(content){
   return (
     <Entry
       key={content.id}
-      id={content.id}
       emoji={content.emoji}
       name={content.name}
       meaning={content.meaning}
