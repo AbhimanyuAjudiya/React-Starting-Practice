@@ -1,12 +1,14 @@
 import React from "react";
-import Login from "./Login";
+import Form from "./Form";
 
-var isLoggedin = false;
+var userIsRegistered = true;
 
 function App() {
-  return <div className="container">{
-    isLoggedin ? <h1>Hello</h1> : <Login />// ternary operator
-  }</div>;
+  return (
+    <div className="container">
+      <Form isRegistered={userIsRegistered} />
+    </div>
+  );
 }
 
 export default App;
