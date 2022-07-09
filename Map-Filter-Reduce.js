@@ -6,7 +6,7 @@ console.log(numbers.map((x) => x * 2));
 
 //Filter - Create a new array by keeping the items that return true.
 
-//---- using forEach Loop---
+//--using forEach Loop--
 // const a = [];
 // numbers.forEach((n) => {
 //   if (n > 10) {
