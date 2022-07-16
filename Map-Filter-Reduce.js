@@ -1,6 +1,6 @@
 var numbers = [3, 56, 2, 48, 5];
 
-//Map -Create a new array by doing something with each item in an array.
+//Map - Create a new array by doing something with each item in an array.
 console.log("Map");
 console.log(numbers.map((x) => x * 2));
 
